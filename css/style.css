@@ -1,0 +1,35 @@
+* {
+	box-sizing: border-box;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, li, img, span {
+	margin: 0;
+	padding: 0;
+}
+
+.button {
+	display: inline-block;
+	padding: 10px;
+
+	border: none;
+	outline: none;
+
+	font-family: "SFUIDisplay-Semibold", "Arial", sans-serif;
+	font-size: 15px;
+	line-height: 24px;
+	text-align: center;
+
+	cursor: pointer;
+}
+
+@font-face {
+	font-family: "BodoniC";
+	src: url("../fonts/BodoniC.otf") format("opentype");
+	src: local("BodoniC"), url("../fonts/BodoniC.otf") format("opentype"), url("../fonts/BodoniC.otf") format("opentype");
+}
