@@ -24,11 +24,12 @@
 
     position: absolute;
     top: 50%;
+    z-index: 1000;
 
     display: block;
 
-    width: 20px;
-    height: 20px;
+    width: 64px;
+    height: 64px;
     padding: 0;
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
@@ -88,11 +89,11 @@
 }
 .slick-prev:before
 {
-    content: '←';
+    content: url("../img/left_arrow/back_64.png");
 }
 [dir='rtl'] .slick-prev:before
 {
-    content: '→';
+    content: url("../img/right_arrow/right-arrow_64.png");
 }
 
 .slick-next
@@ -103,14 +104,15 @@
 {
     right: auto;
     left: -25px;
+    z-index: 1000;
 }
 .slick-next:before
 {
-    content: '→';
+    content: url("../img/right_arrow/right-arrow_64.png");
 }
 [dir='rtl'] .slick-next:before
 {
-    content: '←';
+    content: url("../img/left_arrow/back_64.png");
 }
 
 /* Dots */
@@ -152,7 +154,7 @@
     font-size: 0;
     line-height: 0;
 
-    display: inline-block;
+    display: block;
 
     width: 20px;
     height: 20px;

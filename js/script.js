@@ -18,12 +18,12 @@ $(document).ready(function(){
     $(".main-nav__burger-menu-list").css("display","none");
   });
 
-  $(".main-slider").slick({
+  $(".item-card__slider").slick({
     dots: true,
     dotsClass: "my-dots",
-    arrows: false,
-		prevArrow: '<img src="img/arrowleft.png">',
-  	nextArrow: '<img src="img/arrowright.png">'
+    arrows: true,
+    // prevArrow: '<img src="img/left_arrow/back_64.png">',
+	  // nextArrow: '<img src="img/right_arrow/right-arrow_64.png">'
   });
 
 	$(".main-mobile-slider").slick({
