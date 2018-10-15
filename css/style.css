@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6, p, ul, li, img, span {
 
 body {
 	background: #05011f url("../img/background.jpg") no-repeat;
-	background-size: 100% 100%;
+	background-size: cover;
 	background-position: center;
 }
 
