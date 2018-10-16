@@ -109,7 +109,7 @@ body {
 }
 
 .item-card__slider {
-	width: 50%;
+	width: 45%;
 }
 
 .item-card__image {
@@ -141,7 +141,7 @@ body {
 
     display: inline-block;
 
-    width: calc(100% / 3);
+    width: calc(98% / 3);
     height: 3px;
     margin: 0;
     padding: 0;
@@ -155,7 +155,7 @@ body {
 
     display: block;
 
-		width: calc(100% / 3);
+		width: calc(98% / 3);
     height: 3px;
     padding: 0;
 
