@@ -202,3 +202,9 @@ body {
     opacity: .65;
     background: #ffffff;
 }
+
+@media screen and (max-width: 800px) {
+	.item-card__inner {
+		flex-direction: column;
+	}
+}
